@@ -1,0 +1,10 @@
+.toolbar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50px 150px auto repeat(3, 50px);
+
+    div {
+        justify-self: center;
+        align-self: center;
+    }
+}

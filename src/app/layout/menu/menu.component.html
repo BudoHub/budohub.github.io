@@ -1,0 +1,7 @@
+<bh-loading></bh-loading>
+<mat-sidenav #mainSidenav (click)="toggleSideNav()">
+    <h4>{{menu_header}}</h4>
+    <mat-nav-list>
+        <bh-menu-link-list [links]="menuLink$ | async"></bh-menu-link-list>
+    </mat-nav-list>
+</mat-sidenav>

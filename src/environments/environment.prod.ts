@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  expressApiUrl: 'https://www.budohub.com',
 };
